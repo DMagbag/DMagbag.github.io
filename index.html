@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Professional Portfolio Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="header_logo">Donna Magbag</h1>
+        <nav class="header__nav">
+          <ul class="header__nav_list">
+            <li class="header__nav_listItem"><a href="#profile">About</a></li>
+            <li class="header__nav_listItem"><a href="#portfolio">Portfolio</a></li>
+            <li class="header__nav_listItem"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="profile">
+        <figure>
+          <img
+            src="assets/temporary-profile-pic.jpg"
+            alt="profile picture"
+            class="profile__image"
+          />
+        </figure>
+        <article class="profile__heading">
+          <h2>ABOUT ME</h2>
+          <p>
+            Results-oriented software engineer with software development skills,
+            abilities, and experience gained from We Can Code It Coding boot
+            camp and self study. Analytical and detail-oriented, I apply my
+            technical expertise in analysis, design, development, testing, and
+            implementation of various applications. My technical competence and
+            complex problem-solving abilities are enhanced by a background in
+            Chemical Engineering and 10 years of experience in the
+            pharmaceutical industry. In addition, my current occupation as a
+            Licensed Massage Therapist has allowed me to further develop strong
+            interpersonal skills, giving me the ability to effectively
+            collaborate within a team environment.
+          </p>
+        </article>
+      </section>
+      <h2 class="'projects__title">PORTFOLIO: MY CURRENT PROJECTS</h2>
+      <section class="projects">
+        <article class="projects__column">
+          <h3 class="projects__column_title">Virtual Pet</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="assets/virtual-pet-screenshot.png"
+              alt="vp shelter screenshot"
+              class="projects__column_image"
+            />
+            <a href="https://github.com/2022-October-Java-PT-Classroom/virtual-pet-DMagbag.git">
+                <input type="button" class="projects__column_button" value="Click!">
+            </a>
+              </figure>
+          <p>
+            A virtual pet application that allows a user to adopt a dragon. The
+            user's job is to care for this pet by selecting various activities,
+            such as feeding it, giving it water, and playing with it. These
+            activities affect different attributes including health level,
+            energy level, hunger level, and boredom level. If levels drop to 0,
+            the user failed to properly care for their pet and the game is over.
+          </p>
+          <h4>Skills</h4>
+          <ul>
+            <li>
+              creating classes, methods, and instance variables in the Java
+              programming language
+            </li>
+            <li>implementing a game loop</li>
+            <li>requesting and accepting user input</li>
+            <li>writing out put to the console</li>
+          </ul>
+        </article>
+        <article class="projects__column">
+          <h3 class="projects__column_title">Virtual Pet Shelter</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="assets/virtual-pet-shelter-screenshot.png"
+              alt="vp shelter screenshot"
+              class="projects__column_image"
+            />
+            <a href="https://github.com/2022-October-Java-PT-Classroom/virtual-pet-shelter-DMagbag.git">
+                <input type="button" class="projects__column_button" value="Click!">
+            </a>
+              </figure>
+          <p>
+            This application simulates the activities performed by a shelter
+            worker, the user, to care for several animals. The user has the
+            ability to give a pet up for adoption, admit new pets, and can
+            interact with each pet individually. The user choices affect the
+            attributes of each pet in the shelter such as health, where if you
+            let a pet's health go to 0, the game is over.
+          </p>
+          <h4>Skills</h4>
+          <ul>
+            <li>continuation of Java programming</li>
+            <li>test driven development</li>
+            <li>array lists</li>
+            <li>hash maps</li>
+          </ul>
+        </article>
+        <article class="projects__column">
+          <h3 class="projects__column_title">Virtual Pets Amok</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="assets/virtual-pets-amok-screenshot.png"
+              alt="vp amok screenshot"
+              class="projects__column_image"
+            />
+            <a href="https://github.com/2022-October-Java-PT-Classroom/virtual-pet-amok-DMagbag.git">
+              <input type="button" class="projects__column_button" value="Click!">
+          </a>
+          </figure>
+          <p>
+            This application builds upon the previous Virtual Pet Shelter
+            application. This time there are organic virtual pets or robotic
+            virtual pets that can either be a cat or dog. The user now can
+            perform different activities for one or multiple pets such as
+            walking all the dogs. Again, ths shelter worker choses activities
+            that affect each pet's attributes.
+          </p>
+          <h4>Skills</h4>
+          <ul>
+            <li>abstraction, abstract classes</li>
+            <li>polymorphism, method overiding</li>
+            <li>superclasses and interfaces</li>
+            <li>inheritance</li>
+            <li>encapsulation</li>
+          </ul>
+        </article>
+      </section>
+        <section class="contact">
+          <article class="contact__body">
+            <h2 class="contact__heading">CONTACT ME</h2>
+            <p>e-mail: donna.magbag@gmail.com</p>
+            <section class="contact__social">
+              <a href="https://www.linkedin.com/in/donna-magbag-405500252/">
+                <img id="linkedIn" src="assets/LI-In-Bug.png"
+              </a>
+              <a href="https://github.com/DMagbag">
+                <img id="linkedIn" src="assets/github-mark-white.png"
+              </a>
+          </article>
+        </section>
+      </section>
+      <footer class="footer">
+        <small class="footer__copyright">&copy Donna Magbag 2022</small>
+      </footer>
+    </div>
+  </body>
+</html>
